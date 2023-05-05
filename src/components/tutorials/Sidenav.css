@@ -1,8 +1,7 @@
 .sideNav {
     float: left;
-    min-height: 150vh !important;
+    min-height: 100vh !important;
     background-color: #333 !important;
-
-    /* width: 70px; */
     margin-right: 50px;
+    padding-bottom: 100%;
 }

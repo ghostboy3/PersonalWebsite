@@ -14,7 +14,7 @@ const Sidenav = () => {
       <CDBSidebar textColor="#fff" backgroundColor="#333" className=" sideNav">
         <span style = {{position: "fixed"}}>
         <CDBSidebarHeader className = ""prefix={<i className="fa fa-bars fa-large"></i>}>
-          <span className="text-decoration-none" style={{ color: "inherit" }}>
+          <span className="text-decoration-none" style={{ color: "inherit", marginRight: '55px' }}>
             Java Tutorials
           </span>
         </CDBSidebarHeader>

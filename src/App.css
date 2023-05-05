@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --bg: rgb(29 34 42);
+    --gray: rgb(235, 235, 235);
+    --teel: rgb(0, 199, 139);}
+  
 body {
     font-family: 'Poppins', sans-serif !important;
-    height: 100vh;
-    width: 100vw;
+    /* height: 1000vh;
+    width: 100vw; */
+}
+.bg{
+    min-height:calc(100vh - 70px);
+    background-color: var(--bg);
+}
+.gray{
+    color: var(--gray);
+}
+
+.teel{
+    color: var(--teel);
 }

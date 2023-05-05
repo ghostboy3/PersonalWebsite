@@ -9,7 +9,7 @@ import "./Navbar.css";
 const MyNavbar = () => {
   return (
     <>
-      <Navbar bg="light" className = "navbar-dark bg-dark sticky-top" expand="lg">
+      <Navbar bg="light" className = "navbar navbar-dark bg-dark sticky-top" expand="lg">
         <Container>
           <Link to="/" className = "navbar-brand">Charlie To</Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

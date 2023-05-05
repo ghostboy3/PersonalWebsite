@@ -1,0 +1,16 @@
+.container{
+    margin: 0;
+}
+.row{
+    width: 100vw;
+}
+.col1{
+    background-color: red;
+}
+
+.col2{
+    background-color: blue;
+}
+.col-sm{
+    height: 30vw;
+}

@@ -13,6 +13,7 @@ import Sort from './components/tutorials/Sort';
 import Skills from './components/Skills'
 import Recursion from './components/tutorials/Recursion';
 import Portfolio from './components/Portfolio';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <BrowserRouter>
 
         <MyNavbar />
-        {/* <Sidebar /> */}
+        <ScrollToTop/>
         <Routes>
           <Route path="" element={<Intro />} />
           <Route path="about" element={<About />} />

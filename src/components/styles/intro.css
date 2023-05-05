@@ -1,0 +1,33 @@
+.intro{
+    padding-left: 130px;
+    padding-top: 15vh;
+}
+.sub-title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.title{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.short-bio{
+    margin-top: 20x;
+    font-size: 35px;
+    color: rgb(228, 228, 228);
+    width: 50vw;
+}
+.bio{
+    margin-top: 17px;
+    font-size: 21px;
+    width: 50vw;
+    color: rgb(192, 192, 192);
+}
+.btn{
+    margin-right: 17px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 15px 19px;
+}
