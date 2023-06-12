@@ -2,6 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import React from "react";
+import './delete.css';
 
 const Background = () => {
     const particlesInit = useCallback(async engine => {
@@ -13,6 +14,7 @@ const Background = () => {
     }, []);
 
     return (
+      <div id="particles">
         <Particles id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -414,7 +416,7 @@ const Background = () => {
                   "zIndex": {
                     "random": {
                       "enable": false,
-                      "minimumValue": 0
+                      "minimumValue": 5
                     },
                     "value": 0,
                     "opacityRate": 1,
@@ -691,6 +693,7 @@ const Background = () => {
                 }
               }
         }/>
+      </div>
     );
 }
 export default Background;

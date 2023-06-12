@@ -1,16 +1,21 @@
-.container{
+.about{
+    max-width:100%;
     margin: 0;
+    padding: 0;
 }
-.row{
-    width: 100vw;
+.abt-row{
+    width: 100%;
+    margin: 0;
 }
 .col1{
     background-color: red;
 }
 
 .col2{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
-.col-sm{
+.col{
     height: 30vw;
+    padding: 40px;
+    padding-right:90px;
 }

@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles/intro.css";
 import Background from "./Background";
+import About from "./About";
 
 const Intro = () => {
   return (
+    <>
     <div className="intro bg">
-      <Background/>
       <h2 className="gray sub-title">
         Hi!
         <span role="img" aria-label="jsx-a11y/accessible-emoji">
@@ -19,7 +20,11 @@ const Intro = () => {
       <button className="btn btn-outline-light">Download Resume</button>
       <button className="btn btn-outline-light">Contact Me!</button>
       <button className="btn btn-outline-light">Learn About Me</button>
+      <Background/>
+
     </div>
+    <About/>
+    </>
   );
 };
 export default Intro;
