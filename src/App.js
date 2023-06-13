@@ -24,16 +24,16 @@ function App() {
         <MyNavbar />
         <ScrollToTop/>
         <Routes>
-          <Route path="" element={<Intro />} />
-          <Route path="about" element={<About />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="arrays" element={<Arrays />} />
-          <Route path="arraylist" element={<Arraylist />} />
-          <Route path="oop" element={<Oop />} />
-          <Route path="search" element={<Search />} />
-          <Route path="sort" element={<Sort />} />
-          <Route path="recursion" element={<Recursion />} />
+          <Route path="PersonalWebsite" element={<Intro />} />
+          <Route path="PersonalWebsite/about" element={<About />} />
+          <Route path="PersonalWebsite/skills" element={<Skills />} />
+          <Route path="PersonalWebsite/portfolio" element={<Portfolio />} />
+          <Route path="PersonalWebsite/arrays" element={<Arrays />} />
+          <Route path="PersonalWebsite/arraylist" element={<Arraylist />} />
+          <Route path="PersonalWebsite/oop" element={<Oop />} />
+          <Route path="PersonalWebsite/search" element={<Search />} />
+          <Route path="PersonalWebsite/sort" element={<Sort />} />
+          <Route path="PersonalWebsite/recursion" element={<Recursion />} />
         </Routes>
       </BrowserRouter>
     </>
