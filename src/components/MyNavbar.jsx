@@ -25,6 +25,7 @@ const MyNavbar = () => {
                 <Link to="/PersonalWebsite/search" className="dropdown-item">Searching</Link>
                 <Link to="/PersonalWebsite/sort" className="dropdown-item">Sorting</Link>
                 <Link to="/PersonalWebsite/recursion" className="dropdown-item">Recursion</Link>
+                <Link to="/PersonalWebsite/bibliography" className="dropdown-item">Bibliography</Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

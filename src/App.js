@@ -14,6 +14,7 @@ import Skills from './components/Skills'
 import Recursion from './components/tutorials/Recursion';
 import Portfolio from './components/Portfolio';
 import ScrollToTop from './ScrollToTop';
+import Bibliography from './components/tutorials/Bibliography';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path="PersonalWebsite/search" element={<Search />} />
           <Route path="PersonalWebsite/sort" element={<Sort />} />
           <Route path="PersonalWebsite/recursion" element={<Recursion />} />
+          <Route path="PersonalWebsite/bibliography" element={<Bibliography />} />
         </Routes>
       </BrowserRouter>
     </>

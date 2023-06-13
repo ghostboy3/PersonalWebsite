@@ -7,12 +7,12 @@ import { Codeblock } from './Codeblock';
 const Recursion = () => {
   return (
     <>
-        <Sidenav />
+        {/* <Sidenav /> */}
         <div className="tutorial">
           <h2>Recursion Tutorial</h2>
           <hr />
           <p>A recursive method  is one where a method recursivley calls itself.</p>
-          <p>Recursion is based off the idea of breaking a problem into smaller sub-problems that are easier to solve.</p>
+          <p>Recursion involves breaking down a complex problem into smaller, simpler subproblems until a base case is reached. Each recursive call works on a smaller instance of the problem, and the results are combined to solve the original problem.</p>
           <br />
           <h4>Example of a Recursive Fuction</h4>
           <p>We can use recursion to find the sum of all numbers from 1 to 5</p>

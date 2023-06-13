@@ -18,8 +18,8 @@ const Intro = () => {
       <h3 className="gray short-bio">Welcome to my little corner on the internet!!</h3>
       <p className="gray bio">I'm a grade 10 student from William Lyon Mackenzie and I like building websites.</p>
       {/* <button className="btn btn-outline-light">Download Resume</button> */}
-      <button className="btn btn-outline-light">Contact Me!</button>
-      <button className="btn btn-outline-light">Learn About Me</button>
+      {/* <button className="btn btn-outline-light">Contact Me!</button> */}
+      <a href="#about" className="btn btn-outline-light">Learn About Me</a>
     </div>
     <About/>
     <Portfolio/>

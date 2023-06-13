@@ -7,7 +7,7 @@ import {Codeblock} from "./Codeblock";
 const Sort = () => {
   return (
     <>
-        <Sidenav />
+        {/* <Sidenav /> */}
         <div className="tutorial">
             <h2>Bubble Sort Tutorial</h2>
             <hr />
