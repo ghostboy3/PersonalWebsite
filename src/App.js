@@ -15,9 +15,11 @@ import Recursion from './components/tutorials/Recursion';
 import Portfolio from './components/Portfolio';
 import ScrollToTop from './ScrollToTop';
 import Bibliography from './components/tutorials/Bibliography';
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(()=>{document.title = "Charlie To"}, [])
   return (
     <>
       <BrowserRouter>
