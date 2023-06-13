@@ -16,8 +16,8 @@ const MyNavbar = () => {
           <Navbar.Collapse id="basic-navbar-nav" className= "flex-row-reverse" >
             <Nav className="ml-auto">
               <a href="/PersonalWebsite/#" className="nav-link px-4 py-3">Home</a>
-              <a className="nav-link px-4 py-3"  href="PersonalWebsite#about">About</a>
-              <a href="PersonalWebsite#portfolio" className="nav-link px-4 py-3">Portfolio</a>
+              <a className="nav-link px-4 py-3"  href="https://charlie-to.github.io/PersonalWebsite/#about">About</a>
+              <a href="https://charlie-to.github.io/PersonalWebsite/#portfolio" className="nav-link px-4 py-3">Portfolio</a>
               <NavDropdown className="px-4 py-2" title="Tutorials" id="basic-nav-dropdown">
                 <Link to="/PersonalWebsite/arrays" className="dropdown-item">Arrays</Link>
                 <Link to="/PersonalWebsite/arraylist" className="dropdown-item">Array Lists</Link>
