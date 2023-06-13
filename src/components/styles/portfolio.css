@@ -1,0 +1,19 @@
+.portfolio{
+    background-color: var(--bg);
+    padding: 40px;
+}
+.workSubheading{
+    text-align: center;
+    color:white;
+    margin-bottom: 40px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.card-btn{
+    font-size: 15px;
+    padding: 10px;
+}

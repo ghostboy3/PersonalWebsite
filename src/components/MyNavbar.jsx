@@ -11,14 +11,13 @@ const MyNavbar = () => {
     <>
       <Navbar bg="light" className = "navbar navbar-dark bg-dark sticky-top" expand="lg">
         <Container>
-          <Link to="/" className = "navbar-brand">Charlie To</Link>
+          <a href="/#" className = "navbar-brand">testing</a>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className= "flex-row-reverse" >
             <Nav className="ml-auto">
-              <Link to="/" className="nav-link px-4 py-3">Home</Link>
-              <Link to="/about" className="nav-link px-4 py-3">About</Link>
-              <Link to="/skills" className="nav-link px-4 py-3">Skills</Link>
-              <Link to="/portfolio" className="nav-link px-4 py-3">Portfolio</Link>
+              <a href="/#" className="nav-link px-4 py-3">Home</a>
+              <a className="nav-link px-4 py-3"  href="/#about">About</a>
+              <a href="/#portfolio" className="nav-link px-4 py-3">Portfolio</a>
               <NavDropdown className="px-4 py-2" title="Tutorials" id="basic-nav-dropdown">
                 <Link to="/arrays" className="dropdown-item">Arrays</Link>
                 <Link to="/arraylist" className="dropdown-item">Array Lists</Link>

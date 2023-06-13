@@ -9,3 +9,12 @@
     padding: 5px;
     margin-bottom: 5px;
 }
+p{
+    margin-bottom: 0;
+}
+.highlight{
+    background-color: yellow;
+}
+.sub{
+    margin-top: 30px;
+}
