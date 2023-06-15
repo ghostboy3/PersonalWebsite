@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import MyNavbar from './components/MyNavbar';
 import Intro from './components/Intro';
 import About from './components/About'
@@ -38,6 +38,7 @@ function App() {
           <Route path="PersonalWebsite/sort" element={<Sort />} />
           <Route path="PersonalWebsite/recursion" element={<Recursion />} />
           <Route path="PersonalWebsite/bibliography" element={<Bibliography />} />
+          <Route path= "" element={ <Navigate to="/PersonalWebsite" />}/>
         </Routes>
       </BrowserRouter>
     </>
