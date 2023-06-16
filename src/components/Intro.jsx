@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/intro.css";
 import About from "./About";
 import Portfolio from "./Portfolio";
+import Contact from "./Contact"
 
 const Intro = () => {
   return (
@@ -23,6 +24,7 @@ const Intro = () => {
     </div>
     <About/>
     <Portfolio/>
+    <Contact/>
     </>
   );
 };

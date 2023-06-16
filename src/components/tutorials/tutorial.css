@@ -22,3 +22,7 @@ p{
 .bibliographyText{
     line-height: 3;
 }
+
+.strong{
+    font-weight: bold;
+}

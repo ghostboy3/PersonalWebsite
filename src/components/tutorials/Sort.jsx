@@ -32,6 +32,14 @@ const Sort = () => {
     }
 }
 `}/>
+        <br />
+        <h2>How the Code Works</h2>
+        <p>1. The n variable is assigned the length of the array. </p>
+        <p>2. The outer loop runs from i = 0 to n - 1. It represents the number of passes through the array.</p>
+        <p>3. The inner loop runs from j = 0 to n - i - 1. It compares adjacent elements and swaps them if necessary.</p>
+        <p>4. If an element at index j is greater than the element at index j + 1, they are swapped using a temporary variable.</p>
+        <p>5. After the inner loop finishes, it means the array is already sorted, and the algorithm can exit early.</p>
+        <br />
         <p>Time Complexity: O(N^2)</p>
         <a href="https://www.geeksforgeeks.org/bubble-sort/">Source: GeeksforGeeks</a>
         <br />
