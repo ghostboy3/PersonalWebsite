@@ -3,6 +3,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
+
 import { Link  } from "react-router-dom";
 import "./Navbar.css";
 
@@ -11,14 +13,14 @@ const MyNavbar = () => {
     <>
       <Navbar bg="light" className = "navbar navbar-dark bg-dark sticky-top" expand="lg">
         <Container>
-          <a href="/PersonalWebsite/#" className = "navbar-brand">Charlie T</a>
+          <HashLink smooth to="/PersonalWebsite/#" className = "navbar-brand">Charlie T</HashLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className= "flex-row-reverse" >
             <Nav className="ml-auto">
-              <a href="/PersonalWebsite/#" className="nav-link px-4 py-3">Home</a>
-              <a className="nav-link px-4 py-3"  href="https://charlie-to.github.io/PersonalWebsite/#about">About</a>
-              <a href="https://charlie-to.github.io/PersonalWebsite/#portfolio" className="nav-link px-4 py-3">Portfolio</a>
-              <a href="https://charlie-to.github.io/PersonalWebsite/#contact" className="nav-link px-4 py-3">Contact</a>
+              <HashLink smooth to="/PersonalWebsite/#" className="nav-link px-4 py-3">Home</HashLink>
+              <HashLink smooth className="nav-link px-4 py-3"  to="/PersonalWebsite/#about">About</HashLink>
+              <HashLink smooth to="/PersonalWebsite/#portfolio" className="nav-link px-4 py-3">Portfolio</HashLink>
+              <HashLink smooth to="/PersonalWebsite/#contact" className="nav-link px-4 py-3">Contact</HashLink>
               <NavDropdown className="px-4 py-2" title="Tutorials" id="basic-nav-dropdown">
                 <Link to="/PersonalWebsite/arrays" className="dropdown-item">Arrays</Link>
                 <Link to="/PersonalWebsite/arraylist" className="dropdown-item">Array Lists</Link>
