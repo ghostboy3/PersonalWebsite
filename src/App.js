@@ -19,7 +19,7 @@ import { useEffect } from 'react';
 
 
 function App() {
-  useEffect(()=>{document.title = "Charlie To"}, [])
+  useEffect(()=>{document.title = "Nico To"}, [])
   return (
     <>
       <BrowserRouter>

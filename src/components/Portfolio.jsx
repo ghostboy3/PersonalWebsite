@@ -46,8 +46,8 @@ const Portfolio = () => {
           <div class="col-sm">
             <WorkCard
             title="WaterTrackers"
-            link="https://devpost.com/software/water-tracker-7o92cp"
-            liveDemo = "https://charlie-to.github.io/waterTrackers.github.io/"
+            link="https://github.com/ghostboy3/waterTrackers.github.io/tree/master"
+            liveDemo = "https://ghostboy3.github.io/waterTrackers.github.io/"
             img = {watertrackers}
             img2= {WaterTrackers2}
             img3= {WaterTrackers3}

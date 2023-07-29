@@ -13,7 +13,7 @@ const MyNavbar = () => {
     <>
       <Navbar bg="light" className = "navbar navbar-dark bg-dark sticky-top" expand="lg">
         <Container>
-          <HashLink smooth to="/PersonalWebsite/#" className = "navbar-brand">Charlie T</HashLink>
+          <HashLink smooth to="/PersonalWebsite/#" className = "navbar-brand">Nico T</HashLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className= "flex-row-reverse" >
             <Nav className="ml-auto">

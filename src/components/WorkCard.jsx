@@ -123,7 +123,7 @@ const WorkCard = (props) => {
                 <>
                 <br />
                   <h3>Description</h3>
-                  <p>WaterTrackers tells you everything you need to know in case of a flood, and how at risk you are of encountering one. Using the map, you can find your location and see how many floods occur in your area, and whether you're in danger. Made with Dev Narula, Mona Afshar, and Maryam Afshar for the NotUniversity Hacks hackathon.</p>
+                  <p>WaterTrackers tells you everything you need to know in case of a flood, and how at risk you are of encountering one. Using the map, you can find your location and see how many floods occur in your area, and whether you're in danger. Made with Dev Narula, Mona Afshar, and Maryam Afshar.</p>
                   <br/>
                   <h3>How we Built It</h3>
                   <p>We brainstormed ideas and chose WaterTrackers because we felt it would be most useful and could save lives. Then we discussed our skill set and used trello to split the tasks, and github to share files. Some of us did research, some worked on the website, while others planned the video. We took the map data from a CSV file which was prepared via a python script. We used bootstrap studio to create the UI and UX of the website, and exported the HTML and CSS code. We then used the Google Maps API to embed the map with various flood locations in our website. As for the information -checklist and additional resources-, we researched a lot of information related to floods. Throughout the way, we helped each other out.</p>
