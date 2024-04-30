@@ -21,7 +21,7 @@ const WorkCard = (props) => {
           <a href={props.link} target="_blank" class="btn btn-primary card-btn">
             View Project
           </a>
-          {props.title == "WaterTrackers" && (
+          {props.title == "WaterTrackers" || props.title=="Protein Structure Prediction" ? (
             <a
               href={props.liveDemo}
               target="_blank"
@@ -29,14 +29,17 @@ const WorkCard = (props) => {
             >
               Live Demo
             </a>
-          )}
-          <Button
+          ): null}
+          {props.title == "SlideIntoHighSchool" || props.title=="Boggle" || props.title=="WaterTrackers" || props.title=="Aidify.ca" ? (
+            <Button
             className="card-btn "
             variant="btn btn-outline-secondary"
             onClick={handleShow}
           >
             Learn More
           </Button>
+          ): null}
+          
           <Modal className="modal-lg" show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>{props.title}</Modal.Title>

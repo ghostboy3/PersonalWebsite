@@ -18,7 +18,7 @@ const Intro = () => {
       </h2>
       <h1 className="teel title">Nico To</h1>
       <h3 className="gray short-bio">Welcome to my little corner on the internet!!</h3>
-      <p className="gray bio">I'm a grade 10 student from William Lyon Mackenzie and I like building websites.</p>
+      <p className="gray bio">I'm a grade 11 student from William Lyon Mackenzie who loves to learn and work with others. <br/>My Core Values: Kindess, Courage, Curisotiy, Integrity</p>
       <a href={Resumepdf}
         download="Resume.pdf"
         target="_blank"
